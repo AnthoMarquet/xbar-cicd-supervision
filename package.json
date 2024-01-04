@@ -1,0 +1,28 @@
+{
+  "name": "xbar-cicd-supervision",
+  "version": "1.0.0",
+  "description": "A plugin for BitBar that displays Github Actions status in your Mac OS X Menu Bar",
+  "keywords": [
+    "Github Actions",
+    "GitHub CI/CD",
+    "GitHub Actions Monitor",
+    "GitHub Actions Radiator",
+    "github-actions",
+    "xbar"
+  ],
+  "main": "bin/cli.js",
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "bin": {
+    "xbar-cicd-supervision": "bin/cli.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "humanize-duration": "^3.24.0",
+    "moment": "^2.29.1",
+    "rcfile": "^1.0.3",
+    "simple-git": "^2.21.0"
+  }
+}

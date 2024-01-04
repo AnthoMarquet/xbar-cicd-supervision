@@ -1,0 +1,4 @@
+{
+    "githubToken": "<Git hub token>. Ex: aaa_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "githubRepoName": "<Github owner/repo_name. Ex: anthomarquet/xbar-cicd-supervision>"
+}
